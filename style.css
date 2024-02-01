@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(30, 30, 30);
+     height: 43px;
+    line-height: 43px;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 32px;
+
+}
+.clearfix::before , .clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 200px;
+}
+nav{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+
+}
+.art{
+    padding-top: 168px;
+    padding-bottom: 40px;
+    background-color: rgb(186, 227, 254);
+
+}
+.box1{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 50px;
+   
+}
+.heading{
+    font-size: 33px;
+    line-height: 60px;
+}
+.para{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 30px;
+}
+.box2{
+    float: right;
+    width: 50%;
+}
+.box2 img{
+    width:600px;
+    border: 3px solid aqua;
+    border-radius: 20px;
+}
+.sec{
+    padding: 40px 0;
+}
+.gallery{
+    text-align: center;
+    padding: 20px 0;
+}
+h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.png{
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+
+}
+.png img{
+    width: 100%;
+    height: 350px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    padding: 20px 0;
+}
+.copy{
+    width: 50%;
+    display: inline-block;
+
+}
+.copy p{
+    color: aliceblue;
+}
+.link{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    padding-right:40px;
+    box-sizing: border-box;
+}
+.link a{
+    color: aliceblue;
+    margin: 0 8px;
+}
+.top{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(175, 223, 255, 0.744);
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    color: black;
+    
+}
